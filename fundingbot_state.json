@@ -1,0 +1,98 @@
+{
+  "paperBalance": 999.4720548453679,
+  "realizedPnl": 0,
+  "totalFees": 0.4199453739192844,
+  "totalSlippage": 0.10799978071269523,
+  "tradesOpened": 2,
+  "tradesClosed": 0,
+  "tradesWon": 0,
+  "symbolStats": {},
+  "rateHistory": {
+    "DAMUSDT": [
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289,
+      0.00384289
+    ],
+    "PRLUSDT": [
+      0.00005,
+      0.00005,
+      0.00005,
+      -0.02,
+      -0.01190113,
+      -0.01100256,
+      -0.00387153,
+      -0.0032581,
+      -0.00461002,
+      -0.0050824,
+      -0.00562089,
+      -0.0057797
+    ],
+    "ZKJUSDT": [
+      0.00005,
+      0.00034326,
+      0.00026986,
+      0.00005,
+      0.00005,
+      -0.00201336,
+      -0.00798024,
+      -0.02,
+      -0.00713877,
+      -0.01239053,
+      -0.00654392,
+      -0.00585207
+    ]
+  },
+  "dailyPnl": 0,
+  "dailyResetAt": 1777369693924,
+  "positions": [
+    [
+      "DAMUSDT",
+      {
+        "symbol": "DAMUSDT",
+        "direction": "SHORT_FUTURES",
+        "size": 140,
+        "spotEntry": 0.04750268216959527,
+        "futuresEntry": 0.04795567367904379,
+        "openedAt": 1777369722559,
+        "nextFunding": 1777377600000,
+        "rateAtEntry": 0.00384289,
+        "entryRateAvg": 0.0065119800000000005,
+        "expectedNet": 0.0001268300873725984,
+        "slipAtEntry": 0.0003580299563137007,
+        "currentRate": 0.00384289,
+        "marginRatio": 0.29010236622676705,
+        "sizeReduced": false
+      }
+    ],
+    [
+      "PRLUSDT",
+      {
+        "symbol": "PRLUSDT",
+        "direction": "LONG_FUTURES",
+        "size": 139.96358261285624,
+        "spotEntry": 0.3872618661587566,
+        "futuresEntry": 0.3847795376119894,
+        "openedAt": 1777370460927,
+        "nextFunding": 1777377600000,
+        "rateAtEntry": -0.0057797,
+        "entryRateAvg": -0.0054943299999999995,
+        "expectedNet": 0.0019526907773386613,
+        "slipAtEntry": 0.0004135046113306692,
+        "currentRate": -0.0057797,
+        "marginRatio": 0.3,
+        "sizeReduced": false
+      }
+    ]
+  ],
+  "watchlist": [],
+  "savedAt": 1777370460928
+}

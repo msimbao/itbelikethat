@@ -1,0 +1,206 @@
+{"ts":"2026-04-28T09:48:13.942Z","level":"LOG","msg":"🚀 Funding Rate Arbitrage Bot v3.1 starting"}
+{"ts":"2026-04-28T09:48:13.945Z","level":"LOG","msg":"   Mode     : PAPER TRADING 🟡"}
+{"ts":"2026-04-28T09:48:13.946Z","level":"LOG","msg":"   Balance  : $1000.00"}
+{"ts":"2026-04-28T09:48:13.948Z","level":"LOG","msg":"   Min rate : 0.0300%   Min vol: $1M   Fee/leg: 0.0750%"}
+{"ts":"2026-04-28T09:48:13.950Z","level":"LOG","msg":"   Breaker  : $30/day   Slots: 5   MaxSize: $150/leg"}
+{"ts":"2026-04-28T09:48:13.952Z","level":"LOG","msg":"   Log      : C:\\Users\\Lenovo\\Documents\\itbelikethat\\fundingbot_log.json"}
+{"ts":"2026-04-28T09:48:14.012Z","level":"LOG","msg":"   State    : C:\\Users\\Lenovo\\Documents\\itbelikethat\\fundingbot_state.json"}
+{"ts":"2026-04-28T09:48:14.013Z","level":"LOG","msg":""}
+{"ts":"2026-04-28T09:48:14.014Z","type":"START","mode":"paper","balance":1000}
+{"ts":"2026-04-28T09:48:14.274Z","level":"LOG","msg":"⏳ Waiting 5s for WebSocket to populate prices..."}
+{"ts":"2026-04-28T09:48:15.644Z","level":"LOG","msg":"📡 WebSocket connected (mark prices + book ticker)"}
+{"ts":"2026-04-28T09:48:24.329Z","level":"LOG","msg":"ℹ️  WS prices not ready — falling back to REST premiumIndex"}
+{"ts":"2026-04-28T09:48:25.851Z","level":"LOG","msg":"🔍 Scoring 676 symbols..."}
+{"ts":"2026-04-28T09:48:42.554Z","level":"LOG","msg":"📊 1 qualifying opportunities found"}
+{"ts":"2026-04-28T09:48:42.563Z","level":"LOG","msg":"📥 OPEN   DAMUSDT      SHORT_FUTURES   rate=0.3843% net=0.0127% size=$140"}
+{"ts":"2026-04-28T09:48:42.564Z","type":"OPEN","symbol":"DAMUSDT","direction":"SHORT_FUTURES","rate":0.00384289,"netRate":0.0001268300873725984,"totalCost":0.0037160599126274015,"size":140}
+{"ts":"2026-04-28T09:49:46.603Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:50:02.685Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:50:44.512Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:51:02.282Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:51:44.301Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:51:59.653Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:52:45.735Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:53:02.998Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:53:44.336Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:53:59.892Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:54:44.205Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:55:00.513Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:55:44.504Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:55:59.629Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:56:44.627Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:57:00.994Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:57:44.087Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:57:59.653Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:57:59.662Z","type":"SNAPSHOT","balance":999.7398758061161,"realizedPnl":0,"dailyPnl":0,"openPos":1,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T09:58:44.124Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T09:59:01.291Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T09:59:44.500Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T10:00:01.918Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T10:00:44.199Z","level":"LOG","msg":"🔍 Scoring 675 symbols..."}
+{"ts":"2026-04-28T10:01:00.926Z","level":"LOG","msg":"📊 1 qualifying opportunities found"}
+{"ts":"2026-04-28T10:01:00.927Z","level":"LOG","msg":"📥 OPEN   PRLUSDT      LONG_FUTURES    rate=-0.5780% net=0.1953% size=$140"}
+{"ts":"2026-04-28T10:01:00.927Z","type":"OPEN","symbol":"PRLUSDT","direction":"LONG_FUTURES","rate":-0.0057797,"netRate":0.0019526907773386613,"totalCost":0.0038270092226613383,"size":139.96358261285624}
+{"ts":"2026-04-28T13:38:43.515Z","level":"LOG","msg":"🔌 WebSocket closed (1006) — reconnecting in 3s"}
+{"ts":"2026-04-28T13:38:43.582Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T13:38:43.960Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:38:46.533Z","level":"LOG","msg":"⚠️  WebSocket error: getaddrinfo ENOTFOUND fstream.binance.com"}
+{"ts":"2026-04-28T13:38:46.535Z","level":"LOG","msg":"🔌 WebSocket closed (1006) — reconnecting in 3s"}
+{"ts":"2026-04-28T13:38:49.561Z","level":"LOG","msg":"⚠️  WebSocket error: getaddrinfo ENOTFOUND fstream.binance.com"}
+{"ts":"2026-04-28T13:38:49.561Z","level":"LOG","msg":"🔌 WebSocket closed (1006) — reconnecting in 3s"}
+{"ts":"2026-04-28T13:38:52.573Z","level":"LOG","msg":"⚠️  WebSocket error: getaddrinfo ENOTFOUND fstream.binance.com"}
+{"ts":"2026-04-28T13:38:52.621Z","level":"LOG","msg":"🔌 WebSocket closed (1006) — reconnecting in 3s"}
+{"ts":"2026-04-28T13:38:55.630Z","level":"LOG","msg":"⚠️  WebSocket error: getaddrinfo ENOTFOUND fstream.binance.com"}
+{"ts":"2026-04-28T13:38:55.630Z","level":"LOG","msg":"🔌 WebSocket closed (1006) — reconnecting in 3s"}
+{"ts":"2026-04-28T13:38:58.239Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:38:59.985Z","level":"LOG","msg":"📡 WebSocket connected (mark prices + book ticker)"}
+{"ts":"2026-04-28T13:39:44.550Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:39:58.194Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:40:44.678Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:40:58.298Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:41:44.593Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:41:58.173Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:42:44.624Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:42:58.264Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:44:01.289Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:44:14.916Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:44:47.703Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:45:01.320Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:45:01.337Z","type":"SNAPSHOT","balance":999.4720548453679,"realizedPnl":0,"dailyPnl":0,"openPos":2,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T13:46:07.094Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:46:20.792Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:46:54.640Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T13:46:54.642Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:47:08.372Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:47:43.570Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T13:47:43.573Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:47:57.198Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:49:20.220Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T13:49:20.222Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:49:33.955Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:49:54.666Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T13:49:54.667Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:50:08.443Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:50:43.602Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T13:50:43.605Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:50:57.206Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:51:43.629Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T13:51:43.632Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:51:57.260Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:53:17.134Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:53:30.700Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:54:08.672Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:54:22.251Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:54:56.189Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:55:09.852Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:55:09.869Z","type":"SNAPSHOT","balance":999.4720548453679,"realizedPnl":0,"dailyPnl":0,"openPos":2,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T13:56:33.143Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:56:46.772Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:57:13.520Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T13:57:13.521Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:57:27.191Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:58:01.251Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:58:14.849Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:58:52.742Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T13:59:06.347Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T13:59:56.259Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:00:09.844Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:01:17.450Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T14:01:17.451Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:01:31.082Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:01:43.680Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T14:01:43.683Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:01:57.294Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:02:48.375Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:03:02.000Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:04:11.017Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T14:04:11.019Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:04:24.651Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:05:09.744Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:05:23.395Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:05:23.408Z","type":"SNAPSHOT","balance":999.4720548453679,"realizedPnl":0,"dailyPnl":0,"openPos":2,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T14:05:48.267Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:06:01.943Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:06:55.435Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T14:06:55.438Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:07:09.178Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:07:55.405Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T14:07:55.407Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:08:09.044Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:09:27.687Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T14:09:27.688Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:09:41.344Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:10:15.542Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:10:29.138Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:10:52.662Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:11:06.280Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:12:16.013Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:12:29.602Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:12:49.493Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:13:03.075Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:13:49.870Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:14:03.430Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:14:49.102Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:15:02.720Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:15:02.734Z","type":"SNAPSHOT","balance":999.4720548453679,"realizedPnl":0,"dailyPnl":0,"openPos":2,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T14:15:50.907Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:16:04.549Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:17:01.335Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:17:14.973Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:17:50.892Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:18:04.496Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:18:47.374Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:19:00.978Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:19:47.393Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:20:01.014Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:20:46.782Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:21:00.394Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:21:46.451Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:22:00.042Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:22:46.671Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:23:00.246Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:23:46.384Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:23:59.973Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:24:46.599Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:25:00.204Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:25:00.208Z","type":"SNAPSHOT","balance":999.4720548453679,"realizedPnl":0,"dailyPnl":0,"openPos":2,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T14:25:50.022Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:26:03.638Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:26:49.188Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:27:02.804Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:27:49.271Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:28:02.836Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:29:28.207Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T14:29:28.208Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:29:41.828Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:30:22.709Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T14:30:22.712Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:30:36.383Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:43:09.371Z","level":"LOG","msg":"⚠️  Volume refresh failed: Request timeout"}
+{"ts":"2026-04-28T14:43:09.383Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:43:09.396Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T14:43:09.398Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:43:23.247Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:43:23.251Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:43:34.290Z","level":"LOG","msg":"🔌 WebSocket closed (1006) — reconnecting in 3s"}
+{"ts":"2026-04-28T14:43:38.768Z","level":"LOG","msg":"📡 WebSocket connected (mark prices + book ticker)"}
+{"ts":"2026-04-28T14:44:15.736Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:44:29.325Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:45:11.980Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:45:25.653Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:46:12.139Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:46:25.757Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:46:25.778Z","type":"SNAPSHOT","balance":999.4720548453679,"realizedPnl":0,"dailyPnl":0,"openPos":2,"tradesClosed":0,"winRate":null}
+{"ts":"2026-04-28T14:47:11.918Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:47:25.518Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:48:12.174Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:58:13.875Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:58:17.719Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T14:58:17.720Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:58:31.376Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T14:59:05.673Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T14:59:05.674Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T14:59:19.351Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
+{"ts":"2026-04-28T15:00:05.694Z","level":"LOG","msg":"⚠️  Volume refresh failed: getaddrinfo ENOTFOUND fapi.binance.com"}
+{"ts":"2026-04-28T15:00:05.697Z","level":"LOG","msg":"🔍 Scoring 674 symbols..."}
+{"ts":"2026-04-28T15:00:19.397Z","level":"LOG","msg":"📊 0 qualifying opportunities found"}
